@@ -8,7 +8,7 @@ Use [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) to create tables and 
 
 ```sh
 # download file from dropbox
-$ unzip a3_minahilikram-0721370.zip
+$ unzip a3_minahilikram-0721370.zip -d a3_minahilikram-0721370
 ```
 
 ## Usage
@@ -21,6 +21,7 @@ $ cd a3_minahilikram-0721370/
 
 ## Limitations & Specifications
 
+- For .sql functions that take char as an input are case sensitive.
 - p3.sql takes in e.g. ('customer_name', 'customer_province', customer_limit), where the types are (char, char, decimal). This function defaultly auto-makes the Account# key to make sure it is not duplicated.
 - p8.sql the print looks funny if screen is not maximized.
 

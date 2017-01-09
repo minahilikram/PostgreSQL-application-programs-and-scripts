@@ -1,4 +1,4 @@
-# PostgreSQL-application-programs-and-scripts
+# postgreSQL-application-programs-and-scripts
 
 Use [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL) to create tables and develop application programs.
 
